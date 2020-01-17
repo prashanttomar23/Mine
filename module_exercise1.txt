@@ -1,0 +1,33 @@
+1. pwd
+   ls -al
+2. mkdir intern-2020 rapidops-2020
+3. cd intern-2020
+   touch dev.txt helloworld.txt
+4. nano dev.txt
+   this file for dev.
+   echo hello world > helloworld.txt
+5. cp intern-2020/dev.txt intern-2020/helloworld.txt rapidops-2020
+6. cd rapidops-2020
+	mv dev.txt dev1.txt
+	mv helloworld.txt helloworld1.txt
+7. chmod u-w dev1.txt
+   chmod 764 helloworld1.txt
+8. tar -cf m1.tar dev1.txt helloworld1.txt   
+   mv m1.tar ../intern-2020
+9. cd ..
+   cd intern-2020
+   cp m1.tar ./m2.tar
+   rm m1.tar
+10. find dev.txt   whereis dev.txt
+11. top -s
+12. df -h
+    free -h
+13. top
+    pid of procesname 
+14. wget https://releases.mattermost.com/desktop/4.3.2/mattermost-desktop-4.3.2-linux-i386.deb
+15. ifconfig
+   
+     
+    
+
+   
